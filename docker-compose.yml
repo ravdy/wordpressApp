@@ -15,7 +15,7 @@ services:
      depends_on:
        - db
 # Provide image which is created from docker image file
-     image: wordpressApp
+     image: wordpressapp
 # Open Port for Application to communicate
      ports:
        - "8000:80"
